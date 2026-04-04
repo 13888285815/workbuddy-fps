@@ -22,6 +22,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "instant-cli": "^0.22.185",
+    "localtunnel": "^2.0.2",
     "tailwindcss": "^4",
     "typescript": "^5.9.3"
   }
