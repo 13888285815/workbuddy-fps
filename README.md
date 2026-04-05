@@ -1,15 +1,16 @@
-# Welcome to your InstantDB NextJS app 👋
+# FPS Shooter Game
 
-This is a NextJS project scaffolded with create-instant-app.
+单机FPS射击游戏，基于Three.js开发。
 
-To run the development server:
-`npm run dev`
+## 运行
 
-To push schema changes:
-`npx instant-cli push`
+```bash
+npm install
+npm run dev
+```
 
-To pull schema changes:
-`npx instant-cli pull`
+## 游戏操作
 
-
-Got any feedback or questions? Join our [Discord](https://discord.gg/hgVf9R6SBm)
+- WASD / 方向键：移动
+- 鼠标：瞄准
+- 点击：射击
