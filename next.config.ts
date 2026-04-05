@@ -1,7 +1,9 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  // 禁用严格模式以避免某些重复渲染问题
+  // 启用静态导出
+  output: 'export',
+  // 禁用严格模式
   reactStrictMode: false,
   
   // 优化webpack配置
